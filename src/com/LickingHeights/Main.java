@@ -10,7 +10,10 @@ public class Main {
         int value;
         int testing;
         String queston;
-        
+        keyboard= new Scanner(System.in);
+
+        System.out.println("Ask a  yes or no question.");
+        keyboard.nextLine();
 
     }
 }
